@@ -1,0 +1,143 @@
+/* --- Page Header & Description Styles --- */
+
+.catalog-page {
+    padding: 0 10%;
+}
+
+.page-title {
+    /* Based on image font and size */
+    font-family: 'Pikolo', serif; 
+    color: #A899B2; 
+    font-size: 6rem; 
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding-top: 2rem;
+}
+
+.page-description {
+    /* Text below title */
+    color: #B1A9B6;
+    font-size: 1.2rem;
+    max-width: 800px;
+    line-height: 1.5;
+    margin-bottom: 4rem !important;
+}
+
+/* --- Category Row Styles (Row 1) --- */
+
+.category-row {
+    max-width: 1000px;
+    margin: 0 auto 5rem;
+}
+
+.category-item {
+    position: relative;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category-image {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    object-fit: contain;
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 8px;
+}
+
+.category-btn {
+    display: block;
+    background-color: #4A454B; 
+    color: #DCD6D7;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    margin-top: -30px;
+    z-index: 10;
+}
+
+/* --- Product Grid Styles (Row 2 & 3) --- */
+
+.product-row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-item {
+    position: relative;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    max-width: 350px;
+}
+
+.product-image {
+    /* Make the image the focus, centered */
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    margin: 0 auto 1.5rem;
+    display: block;
+}
+
+.product-title {
+    /* Style for the product name */
+    color: #DCD6D7;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.product-description {
+    /* Style for the description text */
+    color: #B1A9B6;
+    font-size: 1rem;
+    min-height: 2.5rem;
+}
+
+.product-price {
+    /* Style for the price text */
+    color: #B1A9B6;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+/* More Options Button (Three Dots) */
+.more-options-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    background: none;
+    border: none;
+    color: #B1A9B6;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    line-height: 1;
+}
+
+/* --- Discover More Button --- */
+
+.discover-more-btn {
+    background-color: #A899B2;
+    color: #302B31;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 0.8rem 4rem;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+}
+
+.discover-more-btn:hover,
+.discover-more-btn:focus,
+.discover-more-btn:active {
+    background-color: #A899B2 !important; 
+    border-color: #A899B2 !important;
+    box-shadow: none !important;
+}

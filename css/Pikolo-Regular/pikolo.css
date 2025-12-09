@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Pikolo';
+    src: local('Pikolo Regular'), local('Pikolo-Regular'),
+        url('Pikolo-Regular.woff2') format('woff2'),
+        url('Pikolo-Regular.woff') format('woff'),
+        url('Pikolo-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

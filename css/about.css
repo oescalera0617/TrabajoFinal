@@ -1,0 +1,96 @@
+/* about.css */
+
+/* ===========================
+   General container styling
+   =========================== */
+.about-container {
+  display: flex;              /* side-by-side layout */
+  align-items: center;        /* vertically align image and text */
+  justify-content: center;    /* center content horizontally */
+  margin: 4rem auto;          /* spacing around each section */
+  max-width: 1200px;          /* keep content nicely contained */
+  gap: 2rem;                  /* space between image and text */
+}
+
+/* ===========================
+   Image column
+   =========================== */
+.about-image {
+  flex: 1;                    /* take up half the space */
+  display: flex;
+  justify-content: flex-end;  /* push image toward text */
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;         /* optional: rounded corners */
+}
+
+/* ===========================
+   Text column
+   =========================== */
+.about-text {
+  flex: 1;                    /* take up half the space */
+}
+
+.about-text h2 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #DCD6D7;             /* unified text color */
+}
+
+.about-text p {
+  line-height: 1.6;
+  margin: 0;
+  color: #DCD6D7;             /* unified text color */
+}
+
+/* ===========================
+   Subsection: Since 2016...
+   =========================== */
+.about-subsection {
+  padding: 4rem 2rem;
+  background-color: #302B31;  /* same as other sections */
+  color: #DCD6D7;             /* unified text color */
+}
+
+.about-subsection h2 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #DCD6D7;
+}
+
+/* Horizontal row for columns */
+.about-subsection .row {
+  display: flex;
+  justify-content: center;    /* center the three columns */
+  gap: 1rem;                  /* reduced spacing between them */
+}
+
+/* Sub-container columns */
+.sub-container {
+  flex: 1;                    /* equal width for each column */
+  background: transparent;    /* match section background */
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  color: #DCD6D7;
+  margin: 0;                  /* remove extra margin so they sit closer */
+}
+
+/* Sub-container headers */
+.sub-container h4 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #DCD6D7;
+}
+
+/* Sub-container paragraphs */
+.sub-container p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+  color: #DCD6D7;
+}
