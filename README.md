@@ -1,10 +1,5 @@
 # BOLD • Sitio Web de Fotografía
 
-### Tabla de contenido
-*   [Propósito del sitio](#Propósito)
-*   [Tecnologías](#Tecnologías)
-*   [Instalación y ejecución](#Instalación-y-ejecución)
-
 ***
 
 
